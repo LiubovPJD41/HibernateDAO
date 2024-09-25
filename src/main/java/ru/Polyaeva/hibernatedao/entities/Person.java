@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "PERSONS")
-@IdClass(PersonId.class)
+@IdClass(String.class)
 public class Person {
     @Id
     @Column(length = 100)
@@ -23,5 +23,4 @@ public class Person {
 
     @Column(length = 30)
     public String cityOfLiving;
-
 }
