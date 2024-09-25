@@ -23,5 +23,4 @@ public class Person {
 
     @Column(length = 30)
     public String cityOfLiving;
-
 }

@@ -7,10 +7,6 @@ public class PersonId {
     public String surname;
     public int age;
 
-    public PersonId() {
-        
-    }
-
     public PersonId(String name, String surname, int age) {
         this.name = name;
         this.surname = surname;
@@ -22,7 +18,7 @@ public class PersonId {
         if (o == this) {
             return true;
         }
- 
+
         if (!(o instanceof PersonId)) {
             return false;
         }
@@ -35,6 +31,4 @@ public class PersonId {
     public int hashCode() {
         return Objects.hash(this.name, this.surname, this.age);
     }
-
 }
-

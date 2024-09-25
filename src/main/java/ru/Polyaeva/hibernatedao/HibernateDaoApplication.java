@@ -10,5 +10,4 @@ public class HibernateDaoApplication {
         SpringApplication.run(HibernateDaoApplication.class, args);
     }
 
-
 }
