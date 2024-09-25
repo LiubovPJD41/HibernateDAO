@@ -1,12 +1,14 @@
-package ru.irendemchenkova.hibernatedao.controllers;
+package ru.Polyaeva.hibernatedao.controllers;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.irendemchenkova.hibernatedao.entities.Person;
-import ru.irendemchenkova.hibernatedao.repositories.PersonRepository;
+import ru.Polyaeva.hibernatedao.entities.Person;
+import ru.Polyaeva.hibernatedao.repositories.PersonRepository;
+
 
 import java.util.List;
 

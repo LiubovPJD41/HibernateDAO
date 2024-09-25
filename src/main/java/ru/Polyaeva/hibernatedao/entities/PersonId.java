@@ -1,4 +1,4 @@
-package ru.irendemchenkova.hibernatedao.entities;
+package ru.Polyaeva.hibernatedao.entities;
 
 import java.util.Objects;
 
@@ -6,6 +6,10 @@ public class PersonId {
     public String name;
     public String surname;
     public int age;
+
+    public PersonId() {
+        
+    }
 
     public PersonId(String name, String surname, int age) {
         this.name = name;
@@ -31,5 +35,6 @@ public class PersonId {
     public int hashCode() {
         return Objects.hash(this.name, this.surname, this.age);
     }
+
 }
 

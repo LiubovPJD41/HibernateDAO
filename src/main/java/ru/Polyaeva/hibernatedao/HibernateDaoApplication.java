@@ -1,4 +1,4 @@
-package ru.irendemchenkova.hibernatedao;
+package ru.Polyaeva.hibernatedao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,6 @@ public class HibernateDaoApplication {
     public static void main(String[] args) {
         SpringApplication.run(HibernateDaoApplication.class, args);
     }
+
 
 }

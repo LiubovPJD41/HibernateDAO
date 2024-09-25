@@ -1,4 +1,4 @@
-package ru.irendemchenkova.hibernatedao.entities;
+package ru.Polyaeva.hibernatedao.entities;
 
 import jakarta.persistence.*;
 
@@ -23,4 +23,5 @@ public class Person {
 
     @Column(length = 30)
     public String cityOfLiving;
+
 }

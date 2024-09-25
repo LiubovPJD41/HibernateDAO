@@ -1,4 +1,4 @@
-package ru.irendemchenkova.hibernatedao;
+package ru.Polyaeva.hibernatedao;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

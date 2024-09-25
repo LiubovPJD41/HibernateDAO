@@ -1,10 +1,10 @@
-package ru.irendemchenkova.hibernatedao.repositories;
+package ru.Polyaeva.hibernatedao.repositories;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import ru.irendemchenkova.hibernatedao.entities.Person;
+import ru.Polyaeva.hibernatedao.entities.Person;
 
 import java.util.List;
 
@@ -21,6 +21,8 @@ public class PersonRepository {
         String jpql = "SELECT person FROM Person person WHERE person.cityOfLiving = :city";
         TypedQuery<Person> query = this.entityManager.createQuery(jpql, Person.class);
         query.setParameter("city", city);
+//        System.out.println(query.);
         return query.getResultList();
+
     }
 }
